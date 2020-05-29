@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 3px;
+  border-radius: 5rem;
+  text-align: center;
+}
+#button {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 0px;
+  background-color: green;
+  color: white;
+  display: block;
+  min-width: 200px;
+}
