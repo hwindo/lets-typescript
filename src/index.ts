@@ -1,4 +1,7 @@
 import "./styles.css";
+import "./type-inference";
+import "./union";
+import "./functionReturn";
 
 const button = document.getElementById("button")! as HTMLButtonElement;
 const input1 = document.getElementById("num1")! as HTMLInputElement;
